@@ -1,6 +1,6 @@
 ######################################################################
-# Author: Scott Heggen       TODO: Change this to your names
-# Username: heggens               TODO: Change this to your usernames
+# Author: Immanuela Belaineh       TODO: Change this to your names
+# Username: belainehi              TODO: Change this to your usernames
 #
 # Assignment: T01: Choose Your Own Adventure
 #
@@ -58,18 +58,28 @@ elif direction == "South":
     dead = True
 else:
     # Neutral choice
-    print("You're in another part of the cave. It is equally dark, and equally uninteresting. Please get me out of here!")
+    print("You're in another part of the cave. It is equally dark, and equally uninteresting. Please get me out of here! \n")
     sleep(delay)
 
 if dead == True:
-    print("Oh no! You died. Better luck next time! Try again by hitting the green play button. ")
+    print("Oh no! You died. Better luck next time! Try again by hitting the green play button. \n ")
     quit()
 
 #########################################################################################################
 # TODO Add your part of the story here. Keep in mind you may NOT be coming right after the example above.
 
+print ("Congratulations! You have survived so far. But the journey does not end for the gold still lays undiscovered. \n ")
+sleep (delay*2)
+direction=input("Which way would you like to go now? Choose wisely North, East, West or South?\n")
+if direction =="East":
+    print ("You have proven how worthy you are so the gods have decided to reward you with Gold. \n You are rich now go home and spread your wealth! \n")
+    quit()
+elif direction == "North":
+    print("This trip is only for the worthy. You have been found unworthy and the gods have sacked your soul.\n")
 
-
+else:
+    print ("You were found by a group of robbers. They know you have enough food and gold to last you days. They loot you and leave you for the bears.")
+sleep (delay)
 # TODO Don't forget to check if your user is dead at the end of your chapter!
 
 
