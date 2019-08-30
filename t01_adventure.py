@@ -38,6 +38,7 @@ sleep(delay)
 
 #########################################################################################################
 # This is an example chapter. Your story will follow a similar structure.
+
 # You will learn more by NOT copy and pasting this section. Write your section on your own, and when you get stuck,
 # refer to this code to help you get unstuck. Of course, raise your hand if you get really stuck.
 

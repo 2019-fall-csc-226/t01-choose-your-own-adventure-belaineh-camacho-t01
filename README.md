@@ -2,7 +2,7 @@
 
 Name 1: Henry Camacho
 
-Name 2: Immanuela
+Name 2: Immanuela Belaineh
 
 Name 3 (if needed): ____________
 
