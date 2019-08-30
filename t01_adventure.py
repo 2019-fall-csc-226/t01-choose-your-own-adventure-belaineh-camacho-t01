@@ -77,6 +77,8 @@ if direction =="East":
 elif direction == "North":
     print("This trip is only for the worthy. You have been found unworthy and the gods have sacked your soul.\n")
 
+elif direction=="West":
+    print ("Some wolves come by and urinate all over your stuff, then eat your face off. Tragic, you could have been rich but now you're dead.")
 else:
     print ("You were found by a group of robbers. They know you have enough food and gold to last you days. They loot you and leave you for the bears.")
 sleep (delay)
